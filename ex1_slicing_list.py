@@ -4,7 +4,7 @@ def getmax(list):
     max_list = 0
     size = len(list)
     for i in range(size):
-        if list[i] > max:
+        if list[i] > max_list:
             max_list = list[i]
     return max_list
 
