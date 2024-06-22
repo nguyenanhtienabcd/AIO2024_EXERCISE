@@ -25,7 +25,7 @@ class MyQueue:
         elif len(self.__queue) < self.__capacity:
             return False
         elif len(self.__queue) > self.__capacity:
-            print('the size of Queue is being overloaded !!!!!!')
+            print('the size of Queue is being overloaded !!!!!')
             return False
 
     def dequeue(self):
